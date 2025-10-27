@@ -5,7 +5,8 @@ INCLUDES = -I./includes -I/usr/include
 NAME = philo
 
 ##################### FILES ######################
-RAWS = main.c
+RAWS = main.c \
+		parsing.c
 SRCS = $(addprefix srcs/, $(RAWS))
 OBJS = $(SRCS:.c=.o)
 
